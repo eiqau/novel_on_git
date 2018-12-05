@@ -64,6 +64,9 @@ Gitで使われる言葉には、プログラマではない人にとってち�
 ![Diff Management - Unstage Changes, Add Image](./img/diff_mgmt_08.png)
 また、複数のファイルや、1ファイルの中でも複数の変更がある場合は、どの作業をコミットするか、細かく指定することができる (あくまで行ごとにだが)
 
+![Diff Management - Staged and Unstaged changes](./img/diff_mgmt_09.png)
+コミットする対象に指定されるのは、「ステージ」された変更だけである。直前の画像では `README.md` というファイル (というか、今読んでいただいているこの文章なのだが) の中の、58-65行目を選択して `Stage lines` (選択中の行をステージ) したので、選択されなかった変更である73行目の変更が、Unstageのところに残っている
+
 ## 複数端末 (PCとスマホなど) でGitを使う
 WIP
 
